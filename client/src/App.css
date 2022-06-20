@@ -1,0 +1,154 @@
+body {
+  background-image: url(../public/images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed !important;
+  background-size: cover;
+  padding-top: 165px;
+}
+
+.logo-container {
+  width: 55vw;
+  padding: 50px 0px 5vh 300px;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,0.80) 0%, rgba(255,255,255,0.80) 53%, rgba(0,0,0,0) 100%);
+}
+
+.logo {
+  width: 350px;
+  height: auto;
+}
+
+.the {
+  font-size: 45px;
+  display: inline;
+  vertical-align: bottom;
+  line-height: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  margin-left: 20px;
+  color: #3F3F3F;
+  letter-spacing: -2px;
+}
+
+.fastest {
+  font-size: 65px;
+  line-height: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #8BC53F;
+  letter-spacing: -2px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.way {
+  font-size: 45px;
+  line-height: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  color: #3F3F3F;
+  letter-spacing: -2px;
+  margin-top: 20px;
+}
+
+.bottom-form {
+  margin-top: 268px !important;
+  width: 67%;
+  height: auto;
+}
+
+.first {
+  background-color: #8BC540;
+  clip-path: polygon(0% 0%, 93% 0%, 100% 50%, 93% 100%, 0% 100%);
+}
+
+.schedule {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 30px;
+}
+
+.learn {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+.end {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.part1 {
+  color: #3F3F3F;
+}
+
+.part2 {
+  color: #8BC540;
+}
+
+.background-green {
+ background-color: #8BC540 !important;
+}
+
+@media (max-width: 1440px) {
+  .logo-container {
+    padding: 50px 10vw 10vw 50px;
+  }
+
+  .logo {
+    width: 300px;
+    height: auto;
+  }
+
+  .the {
+    font-size: 30px;
+  }
+  
+  .fastest {
+    font-size: 44px;
+  }
+  
+  .way {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .first {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%);
+  }
+
+  .form-control {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .the {
+    font-size: 27px;;
+  }
+
+  .logo {
+    width: 230px;
+  }
+
+  .way {
+    font-size: 27;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo-container {
+    padding: 50px 10vw 10vw 20px;
+  }
+}
+
+.form-control:focus {
+  border-color: rgba(126, 239, 104, 0.8) !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6) !important;
+} 
